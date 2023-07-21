@@ -502,7 +502,6 @@ ul {
 .customers-lsit {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
   justify-content: center;
 }
 
