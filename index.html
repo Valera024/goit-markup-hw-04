@@ -21,7 +21,7 @@
         <div class="container">
             <nav class="header-navigation">
                 <a href="./index.html" class="logo link">Web<span class="logo-studio">Studio</span></a>
-                <ul class="list">
+                <ul class="navigation-list list">
                     <li class="navigation-item"><a href="./index.html" class="nav-link link">Studio</a></li>
                     <li class="navigation-item"><a href="./portfolio.html" class="nav-link link">Portfolio</a></li>
                     <li class="navigation-item"><a href="" class="nav-link link">Contacts</a></li>
@@ -48,7 +48,18 @@
             <div class="container">
                 <h1 class="main-heading">Effective Solutions for Your Business</h1>
 
-                <button type="button" class="order-button">Order Service</button>
+                <button data-modal-open type="button" class="order-button">Order Service</button>
+
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button data-modal-close class="close-btn">
+                            <svg class="close-item">
+                                <use href="./images/close-black.svg#close-black"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                </div>
             </div>
         </section>
         <!-- -------------------------ABOUT COMPANY----------------- -->
@@ -58,11 +69,21 @@
                 <!-- about company -->
                 <ul class="list">
                     <li class="company-list-item">
+                        <div class="decor-icon">
+                            <svg class="icon-item">
+                                <use href="./images/icon.svg#icon-antenna"></use>
+                            </svg>
+                        </div>
                         <h3 class="third-heading">Strategy</h3>
                         <p class="list-paragraph">Our goal is to identify the business
                             problem to walk away with the perfect and creative solution.</p>
                     </li>
                     <li class="company-list-item">
+                        <div class="decor-icon">
+                            <svg class="icon-item">
+                                <use href="./images/icon.svg#icon-clock"></use>
+                            </svg>
+                        </div>
                         <h3 class="third-heading">Punctuality</h3>
                         <p class="list-paragraph">Bring the key message to the brand's audience for the best price
                             within
@@ -71,12 +92,22 @@
                         </p>
                     </li>
                     <li class="company-list-item">
+                        <div class="decor-icon">
+                            <svg class="icon-item">
+                                <use href="./images/icon.svg#icon-diagram"></use>
+                            </svg>
+                        </div>
                         <h3 class="third-heading">Diligence</h3>
                         <p class="list-paragraph">Research and confirm brands that present the strongest digital growth
                             opportunities and minimize
                             risk.</p>
                     </li>
                     <li class="company-list-item">
+                        <div class="decor-icon">
+                            <svg class="icon-item">
+                                <use href="./images/icon.svg#icon-astronaut"></use>
+                            </svg>
+                        </div>
                         <h3 class="third-heading">Technologies</h3>
                         <p class="list-paragraph">Design practice focused on digital experiences. We bring forth a deep
                             passion for
@@ -120,6 +151,36 @@
                         <div class="team-info">
                             <h3 class="third-heading">Mark Guerrero</h3>
                             <p class="list-paragraph">Product Designer</p>
+                            <ul class="list-contacts list">
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="team-list-item">
@@ -127,6 +188,36 @@
                         <div class="team-info">
                             <h3 class="third-heading">Tom Ford</h3>
                             <p class="list-paragraph">Frontend Developer</p>
+                            <ul class="list-contacts list">
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="team-list-item">
@@ -134,6 +225,36 @@
                         <div class="team-info">
                             <h3 class="third-heading">Camila Garcia</h3>
                             <p class="list-paragraph">Marketing</p>
+                            <ul class="list-contacts list">
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="team-list-item">
@@ -141,7 +262,75 @@
                         <div class="team-info">
                             <h3 class="third-heading">Daniel Wilson</h3>
                             <p class="list-paragraph">UI Designer</p>
+                            <ul class="list-contacts list">
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-contacts-item">
+                                    <a href="#" class="networks-link link">
+                                        <svg class="networks-item">
+                                            <use href="./images/icon.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- -------------------CUSTOMERS----------------------- -->
+        <section class="customers-section">
+            <div class="container">
+                <h2 class="secondary-heading">Customers</h2>
+                <ul class="customers-lsit list">
+                    <li class="customers-list-item">
+                        <svg class="icon" width="104px" height="56px">
+                            <use href="./images/icon.svg#icon-yaigo"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-list-item">
+                        <svg class="icon" width="104px" height="56px">
+                            <use href="./images/icon.svg#icon-company"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-list-item">
+                        <svg class="icon" width="104px" height="56px">
+                            <use href="./images/icon.svg#icon-second-company"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-list-item">
+                        <svg class="icon" width="104px" height="56px">
+                            <use href="./images/icon.svg#icon-foster-peters"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-list-item">
+                        <svg class="icon" width="104px" height="56px">
+                            <use href="./images/icon.svg#icon-brand"></use>
+                        </svg>
+                    </li>
+                    <li class="customers-list-item">
+                        <svg class="icon" width="104px" height="56px">
+                            <use href="./images/icon.svg#icon-third-company"></use>
+                        </svg>
                     </li>
                 </ul>
             </div>
@@ -153,11 +342,40 @@
 
     <footer class="footer">
         <div class="container">
-            <a href="./index.html" class="logo-footer link">Web<span class="logo-studio-footer">Studio</span></a>
-            <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
-                growth solutions.</p>
+            <div class="container-footer-logo">
+                <a href="./index.html" class="logo-footer link">Web<span class="logo-studio-footer">Studio</span></a>
+                <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing
+                    &
+                    growth solutions.</p>
+            </div>
+            <div class="container-footer-media">
+                <p class="social-media">Social media</p>
+                <ul class="footer-list-icon list">
+                    <li class="footer-list-item">
+                        <svg class="footer-icon">
+                            <use href="./images/icon.svg#icon-instagram"></use>
+                        </svg>
+                    </li>
+                    <li class="footer-list-item">
+                        <svg class="footer-icon">
+                            <use href="./images/icon.svg#icon-twitter"></use>
+                        </svg>
+                    </li>
+                    <li class="footer-list-item">
+                        <svg class="footer-icon">
+                            <use href="./images/icon.svg#icon-facebook"></use>
+                        </svg>
+                    </li>
+                    <li class="footer-list-item">
+                        <svg class="footer-icon">
+                            <use href="./images/icon.svg#icon-linkedin"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
