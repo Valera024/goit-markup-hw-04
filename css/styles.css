@@ -89,16 +89,6 @@ ul {
   align-items: center;
 }
 
-.navigation-item {
-  position: relative;
-}
-
-.navigation-list:first-child {
-  position: relative;
-  color: var(--ocean);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .navigation-item::after {
   content: "";
   position: absolute;
@@ -113,10 +103,6 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 40px;
-}
-
-.nav-link {
-  padding: 24px 0;
 }
 
 .logo {
@@ -143,7 +129,24 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
   color: var(--navyblue);
+}
+
+.nav-link-first {
+  position: relative;
+  color: var(--iris);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link-first::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--ocean);
+  border-radius: 2px;
 }
 
 .nav-link:active,
@@ -156,6 +159,7 @@ ul {
 .contacts {
   color: var(--slate);
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover,
