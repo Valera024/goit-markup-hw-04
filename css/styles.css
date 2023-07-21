@@ -299,13 +299,6 @@ ul {
   padding: 120px 0;
 }
 
-.about-company-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-}
-
 .about-company .list {
   display: flex;
   flex-direction: row;
@@ -321,6 +314,10 @@ ul {
 }
 
 .decor-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
   border-radius: 4px;
   background-color: var(--cloud);
   margin-bottom: 8px;
