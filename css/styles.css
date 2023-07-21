@@ -313,6 +313,7 @@ ul {
   padding: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .close-btn:hover,
@@ -514,6 +515,8 @@ ul {
   align-items: center;
   justify-content: center;
   color: var(--lightslate);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover,
@@ -570,6 +573,8 @@ ul {
   border: 1px solid var(--cornflower);
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -594,6 +599,7 @@ ul {
 
 .card-link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
 }
 
 .card-link:hover,
@@ -635,7 +641,8 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-item:hover .overlay {
+.card-item:hover .overlay,
+.card-item:focus .overlay {
   transform: translateY(0);
 }
 
@@ -677,10 +684,6 @@ ul {
 }
 .container-footer-logo {
   max-width: 264px;
-}
-
-.container-footer-media {
-  margin-left: 120px;
   margin-right: 120px;
 }
 
@@ -713,6 +716,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
