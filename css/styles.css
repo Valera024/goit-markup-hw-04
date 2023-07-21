@@ -295,12 +295,11 @@ ul {
 }
 
 .about-company {
-  display: flex;
   flex-shrink: 0;
   padding: 120px 0;
 }
 
-.about-company .container {
+.about-company-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -318,7 +317,6 @@ ul {
 }
 
 .about-company .list h3 {
-  display: flex;
   margin-bottom: 8px;
 }
 
