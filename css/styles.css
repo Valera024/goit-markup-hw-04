@@ -135,7 +135,7 @@ ul {
 
 .nav-link-first {
   position: relative;
-  color: var(--iris);
+  color: var(--ocean);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -201,7 +201,7 @@ ul {
   padding: 188px 0;
   display: flex;
   flex-shrink: 0;
-  max-height: 1440px;
+  max-width: 1440px;
   background-position: center;
 }
 
@@ -289,6 +289,13 @@ ul {
   padding: 120px 0;
 }
 
+.about-company .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+}
+
 .about-company .list {
   display: flex;
   flex-direction: row;
@@ -312,8 +319,6 @@ ul {
 }
 
 .icon-item {
-  width: 64px;
-  height: 64px;
   margin: 24px 100px;
 }
 
